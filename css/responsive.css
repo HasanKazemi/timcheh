@@ -1,0 +1,37 @@
+@media only screen and (max-width: 768px) {
+  .top-banner {
+    height: 50px;
+  }
+  .timcheh {
+    max-height: 36px;
+    max-width: 76px;
+  }
+  #phone-nav {
+      display: none;
+      position: fixed;
+      top: 0px;
+      z-index: 100;
+      background-color: white;
+      width: 100%;
+      box-shadow: 5px 5px 10px grey;
+  }
+  .custom-hr {
+      border: 10px solid #d1cfcf;
+  }
+  .circle {
+      border-radius: 50%;
+  }
+  #carouselExampleIndicators .carousel-item img {
+      height: 180px;
+      width: 100%;
+  }
+  .twitter-mobile {
+      height: 2rem;
+  }
+  .telegram-mobile {
+      height: 2rem;
+  }
+  .fz-10 {
+      font-size: 10px;
+  }
+}

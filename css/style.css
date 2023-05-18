@@ -1,0 +1,268 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("../fonts/Vazir.eot");
+    /* IE9 Compat Modes */
+    src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Vazir.woff2") format("woff2"),
+    url("../fonts/Vazir.woff") format("woff"),
+    url("../fonts/Vazir.ttf") format("truetype");
+    /* Safari, Android, iOS */
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Vazir" !important;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.top-banner {
+    width: 100%;
+}
+
+.timcheh {
+    margin-top: 3px;
+}
+
+.ms-n5 {
+    margin-right: -40px
+}
+
+#search {
+    font-size: 14px;
+}
+
+.no-shadow {
+    box-shadow: none;
+}
+
+.fa-2x {
+    font-size: 1.5rem;
+
+}
+
+be-seller {
+    font-size: 13px;
+}
+
+.help-link {
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    padding: 0px 10px;
+}
+
+.gift {
+    border-right: 1px solid gray;
+    padding: 0px 10px;
+}
+
+.sign-log {
+    padding-right: 3px;
+    font-size: 13px;
+}
+
+.relative {
+    position: relative;
+}
+
+.relative span {
+    position: absolute;
+    right: -25%;
+    bottom: -25%;
+    padding: 3px;
+    border-radius: 25%;
+    font-size: 13px;
+}
+
+.horizontal-scrollable {
+    overflow: auto;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.horizontal-scrollable div {
+    display: inline-block;
+}
+
+.product-title {
+    font-size: 13px;
+}
+
+.horizontal-scrollable img {
+    height: 100px;
+    width: 100px;
+    border-radius: 5%;
+}
+
+.side-banner img {
+    border-radius: 15px;
+}
+
+.horizontal-products {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.horizontal-products > div {
+    margin: 0px 7px;
+    min-width: 31%;
+    max-width: 33%;
+}
+
+.card {
+    border-color: white;
+}
+
+.bg-245 {
+    background-color: rgb(245,245,245);
+}
+
+.card-img-top {
+    mix-blend-mode: darken;
+}
+
+.card-title {
+    font-size: 12px;
+}
+
+.card-body {
+    white-space: pre-wrap;
+    margin-top: -56px;
+}
+
+.price {
+    margin-top: -40px;
+}
+
+small {
+    font-size: 10px;
+}
+
+mark {
+    background-color: rgb(254,237,0);
+    padding: 0px 7px;
+}
+
+.fz-13 {
+    font-size: 13px;
+}
+
+.fz-12 {
+    font-size: 10px;
+}
+
+.discount-label {
+    background-color: rgb(252, 240, 68);
+    box-shadow: -10px 10px #e6e6e6;
+    height: 1rem;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    padding-top: 0px;
+}
+
+.accessories {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.computer {
+    background-image: url("../images/men_new.webp");
+}
+
+.woman-perfume {
+    background-image: url("../images/ladies_new.png.webp");
+}
+
+.accessories-products {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.accessories-products > div {
+    margin: 0px 7px;
+    min-width: 50%;
+    max-width: 33%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(2,180px);
+    grid-template-areas: "shaving shaving hairdryer hairdryer hair-straighteners hair-straighteners hair-straighteners" "shaving shaving curler curler curler masseur masseur";
+    gap: 20px;
+}
+
+.grid-img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.shaving {
+    grid-area: shaving;
+    background-image: url("../images/shaving.webp");
+}
+
+.hairdryer {
+    grid-area: hairdryer;
+    background-image: url("../images/hairdryer.webp");
+}
+
+.hair-straighteners {
+    grid-area: hair-straighteners;
+    background-image: url("../images/hair-straighteners.webp");
+}
+
+.curler {
+    grid-area: curler;
+    background-image: url("../images/curler.webp");
+}
+
+.masseur {
+    grid-area: masseur;
+    background-image: url("../images/masseur.webp");
+}
+
+.umbrella {
+    margin: 50px 0px 130px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.site-map li {
+    margin: 12px 0px;
+    font-size: 14px;
+}
+
+
+.owl-carousel .owl-nav button{
+    position: absolute;
+    top: 30%;
+    font-size: 50px !important;
+    outline: none;
+    color: #777 !important;
+    background-color: white;
+}
+
+.owl-carousel .owl-nav .owl-next{
+    left: -6px;
+}
