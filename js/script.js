@@ -1,4 +1,12 @@
 $(function () {
+    // desktop mega menu
+    $('.horizontal-list > li > a').hover(function () {
+        $(this).next().delay(500).fadeIn();
+    });
+    $('.horizontal-list > li').mouseleave(function () {
+        $('.horizontal-list > li > a').next().fadeOut();
+    });
+
     $('.no-shadow').click(function () {
         $(this).css({
             'border': 'none',
@@ -15,12 +23,14 @@ $(function () {
             'background': '#f5f5f5'
         });
     });
+
     $('#phone-nav-button').click(function () {
         $('#phone-nav').show(300);
     });
     $('#phone-nav .fa-close').click(function () {
         $('#phone-nav').hide(300);
     });
+
     $('.show-more').click(function () {
         let more = $('#more');
         if (more.text() === 'بیشتر') {
@@ -34,18 +44,19 @@ $(function () {
         }
     });
 
-
-
     $(".owl-carousel").owlCarousel({
-
         rtl: true,
         loop: true,
         dots: false,
-        stagePadding: 30,
         nav: true,
-        items:2,
-    }
-
-
-    );
+        responsive:{
+            0:{
+                items: 2,
+                stagePadding: 30,
+            },
+            768: {
+                items: 4
+            }
+        }
+    });
 });
